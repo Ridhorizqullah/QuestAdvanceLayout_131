@@ -171,7 +171,13 @@ fun AktivitasPertama(modifier: Modifier = Modifier) {
                         color = Color.White,
                         modifier = modifier.padding(top = 5.dp)
                     )
-
+                    Text(
+                        text = stringResource(id = R.string.alamat2),
+                        fontSize = 20.sp,
+                        fontFamily =  FontFamily.Cursive,
+                        color = Color.White,
+                        modifier = modifier.padding(top = 5.dp)
+                    )
                 }
             }
         }
