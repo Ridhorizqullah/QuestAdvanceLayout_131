@@ -84,8 +84,15 @@ fun AktivitasPertama(modifier: Modifier = Modifier) {
         }
 
         Card (
+            modifier = modifier
+                .fillMaxWidth()
+                .padding(12.dp),
+            colors = CardDefaults.cardColors(
+                containerColor = Color.Blue
+            )
+        ) {
 
-        )
+        }
 
         // Spacer untuk memberi ruang sebelum Box copyright
         Spacer(modifier = Modifier.weight(1f))
