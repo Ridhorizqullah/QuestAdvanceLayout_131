@@ -146,7 +146,15 @@ fun AktivitasPertama(modifier: Modifier = Modifier) {
             Row(
                 verticalAlignment = Alignment.CenterVertically,
                 modifier = Modifier.padding(8.dp)
-            )
+            ) {
+                Image(
+                    painter = painterResource(id = R.drawable.images),
+                    contentDescription = null,
+                    modifier = modifier
+                        .size(100.dp)
+                        .padding(5.dp)
+                )
+            }
         }
 
         // Spacer untuk memberi ruang sebelum Box copyright
