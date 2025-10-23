@@ -1,3 +1,8 @@
 <resources>
     <string name="app_name">pertemuan 4</string>
+    <string name="nama">Ridho Rizqullah</string>
+    <string name="alamat">Bantul</string>
+    <string name="prodi">Teknologi Informasi</string>
+    <string name="univ">UMY</string>
+    <string name="copy">Copyright, 2025</string>
 </resources>
