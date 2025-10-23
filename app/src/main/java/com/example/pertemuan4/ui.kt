@@ -32,8 +32,8 @@ fun AktivitasPertama(modifier: Modifier = Modifier) {
             colors = CardDefaults.cardColors(
             containerColor = Color.DarkGray
         )
-    ){
-            Row (
+    ) {
+            Row(
                 verticalAlignment = Alignment.CenterVertically,
                 modifier = Modifier.padding(8.dp)
             )
@@ -65,16 +65,12 @@ fun AktivitasPertama(modifier: Modifier = Modifier) {
                 )
 
 
-
-
-
             }
+        }
+    } Box (
+        modifier = Modifier.fillmaxsixe()
 
-}
-
-
-
-
+    ) {
 
 
 }
