@@ -1,13 +1,6 @@
 package com.example.pertemuan4
 
-
-
-
-
-
-
-
-
+import androidx.compose.foundation.layout.Row
 
 
 @Composable
@@ -30,16 +23,28 @@ fun AktivitasPertama(modifier: Modifier = Modifier) {
             fontSize = 20.sp
             )
 
-    spacer(modifier = Modifier.height(25.dp))
+        spacer(modifier = Modifier.height(25.dp))
 
-    Card(
-        modifier = Modifier
-            .fillMaxWidth()
-            .padding(12.dp),
-        colors = CardDefaults.cardColors(
+        Card(
+         modifier = Modifier
+                .fillMaxWidth()
+                .padding(12.dp),
+            colors = CardDefaults.cardColors(
             containerColor = Color.DarkGray
         )
-    )
+    ){
+            Row (
+                verticalAlignment = Alignment.CenterVertically,
+                modifier = Modifier.padding(8.dp)
+            )
+
+
+
+
+        }
+
+}
+
 
 
 
