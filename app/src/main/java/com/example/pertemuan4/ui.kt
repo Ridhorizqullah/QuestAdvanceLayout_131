@@ -63,7 +63,7 @@ fun AktivitasPertama(modifier: Modifier = Modifier) {
                 )
 
                 // Spacer horizontal
-                Spacer(modifier = Modifier.width(30.dp))
+                Spacer(modifier = Modifier.width(25.dp))
 
                 // Column untuk teks nama & alamat
                 Column {
@@ -83,11 +83,11 @@ fun AktivitasPertama(modifier: Modifier = Modifier) {
                 }
             }
         }
-
-        Card (
+        //card 2
+        Card(
             modifier = modifier
                 .fillMaxWidth()
-                .padding(12.dp),
+                .padding(12.dp), // Add a comma here
             colors = CardDefaults.cardColors(
                 containerColor = Color.Blue
             )
@@ -104,32 +104,45 @@ fun AktivitasPertama(modifier: Modifier = Modifier) {
                         .size(100.dp)
                         .padding(5.dp)
                 )
-            Spacer(modifier = modifier.width(30.dp))
 
-            Column {
-                Text(
-                    text = stringResource(id = R.string.nama1),
-                    fontSize = 30.sp,
-                    fontFamily = FontFamily.Cursive,
-                    color = Color.White,
-                    modifier = Modifier.padding(top = 25.dp)
-                )
-                Text(
-                    Text(stringResource(id = R.string.nim1)),
-                    fontSize = 20.sp,
-                    color = Color.White,
-                    mdodifier = Modifier.padding(top = 5.dp)
-                )
-                Text(
-                    Text(stringResource(id = R.string.alamat1)),
-                    fontSize = 20.sp,
-                    color = Color.White,
-                    mdodifier = Modifier.padding(top = 5.dp)
-            }
+                Spacer(modifier = Modifier.width(25.dp))
 
+                Column {
+                    Text(
+                        text = stringResource(id = R.string.nama1),
+                        fontSize = 30.sp,
+                        fontFamily = FontFamily.Cursive,
+                        color = Color.White,
+                        modifier = Modifier.padding(top = 25.dp)
+                    )
+                    Text(
+                        text = stringResource(id = R.string.nim1),
+                        fontSize = 20.sp,
+                        color = Color.White,
+                        modifier = Modifier.padding(top = 5.dp)
+                    )
+                    Text(
+                        text = stringResource(id = R.string.alamat1),
+                        fontSize = 20.sp,
+                        color = Color.White,
+                        modifier = Modifier.padding(top = 5.dp)
+                    )
+                }
             }
-            )
         }
+
+        Spacer(modifier = Modifier.height(25.dp))
+
+        //card 3
+        Card (
+            modifier = modifier
+                .fillMaxWidth()
+                .padding(horizontal = 12.dp),
+            colors = CardDefaults.cardColors(
+                containerColor = Color.Red
+            )
+
+        )
 
         // Spacer untuk memberi ruang sebelum Box copyright
         Spacer(modifier = Modifier.weight(1f))
