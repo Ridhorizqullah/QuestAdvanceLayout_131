@@ -3,6 +3,14 @@
     <string name="nama">Ridho Rizqullah</string>
     <string name="alamat">Bantul</string>
     <string name="prodi">Teknologi Informasi</string>
-    <string name="univ">UMY</string>
+    <string name="univ">Universitas Muhammadiyah Yogyakarta</string>
     <string name="copy">Copyright, 2025</string>
+
+    <string name="nama1">anggi</string>
+    <string name="nim1">20230140136</string>
+    <string name="alamat1">bengawan solo</string>
+    
+    <string name="nama2">rangga</string>
+    <string name="nim2">20230140137</string>
+    <string name="alamat2">gamping </string>"
 </resources>
