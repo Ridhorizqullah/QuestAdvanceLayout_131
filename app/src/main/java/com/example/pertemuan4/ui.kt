@@ -1,5 +1,6 @@
 package com.example.pertemuan4
 
+import android.provider.MediaStore
 import androidx.compose.foundation.Image
 import androidx.compose.foundation.layout.*
 import androidx.compose.material3.*
@@ -95,7 +96,18 @@ fun AktivitasPertama(modifier: Modifier = Modifier) {
                 verticalAlignment = Alignment.CenterVertically,
                 modifier = Modifier.padding(8.dp)
             ) {
+                val gambar = painterResource(id = R.drawable.images)
+                Image(
+                    painter = gambar,
+                    contentDescription = null,
+                    modifier = Modifier
+                        .size(100.dp)
+                        .padding(5.dp)
+                )
+            Spacer(modifier = modifier.width(30.dp))
 
+            }
+            )
         }
 
         // Spacer untuk memberi ruang sebelum Box copyright
