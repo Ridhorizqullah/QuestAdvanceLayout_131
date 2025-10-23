@@ -83,6 +83,10 @@ fun AktivitasPertama(modifier: Modifier = Modifier) {
             }
         }
 
+        Card (
+
+        )
+
         // Spacer untuk memberi ruang sebelum Box copyright
         Spacer(modifier = Modifier.weight(1f))
 
